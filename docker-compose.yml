@@ -1,0 +1,10 @@
+services:
+  cctv:
+    build: .
+    ports:
+      - "10101:10101"
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    restart: unless-stopped
