@@ -1,0 +1,8 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+opencv-python-headless==4.11.0.86
+ultralytics==8.3.152
+requests==2.32.3
+python-dotenv==1.1.0
+tinytuya==1.15.1
+onvif-zeep==0.2.12
